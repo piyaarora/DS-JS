@@ -13,6 +13,7 @@ console.log(factorial(7))
 
 //big-O = O(n)
 
+//Recursive Approach
 function recFactorial(n) {
     if (n === 0) return 1;
     return n * recFactorial(n - 1)
